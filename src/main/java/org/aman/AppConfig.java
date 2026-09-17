@@ -12,16 +12,16 @@ public class AppConfig {
     // For **singleton** scoped beans, per bean definition a new object is created.
 
     // Here, there are two bean definitions, so two different beans will be created
-    @Bean
-    @Lazy
-    public OrderService getOrderService() {
-        System.out.println("getOrderService");
-        return new OrderService();
-    }
-
-    @Bean
-    public OrderService getOrderService2() {
-        System.out.println("getOrderService2");
-        return new OrderService();
-    }
+//    @Bean
+//    @Lazy
+//    public OrderService getOrderService() {
+//        System.out.println("getOrderService");
+//        return new OrderService();
+//    }
+//
+//    @Bean
+//    public OrderService getOrderService2() {
+//        System.out.println("getOrderService2");
+//        return new OrderService();
+//    }
 }

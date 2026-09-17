@@ -1,10 +1,11 @@
 package org.aman;
 
+import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope("prototype")
+@Lazy
 public class PaymentService {
 
     public PaymentService() {
